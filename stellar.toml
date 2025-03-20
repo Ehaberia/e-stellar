@@ -1,0 +1,25 @@
+# Stellar TOML file for EHP asset  
+VERSION = "2.0"
+
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+FEDERATION_SERVER = "https://ehaberia.github.io/e-stellar/federation"
+AUTH_SERVER = "https://ehaberia.github.io/e-stellar/auth"
+TRANSFER_SERVER = "https://ehaberia.github.io/e-stellar/transfer"
+
+[[CURRENCIES]]
+code = "EHP"
+issuer = "GAKDI5CTLJ7MJUK57YGPJWYIC2AFA2HJOGGTBMMYGPVSZT7FXR77J3NU"  # Your issuer public key
+display_decimals = 2
+image = "https://github.com/Ehaberia/e-stellar/blob/main/ehb%20logo.jpg?raw=true"  # Your logo image link
+desc = "EHP is the official asset of Ehaberia Kingdom."
+conditions = "Limited supply issued by Ehaberia Kingdom."
+is_asset_anchored = false
+fixed_number = 10000000
+status = "live"
+anchor_asset_type = "crypto"
+
+[[VALIDATORS]]
+ALIAS = "Ehaberia Validator 1"
+DISPLAY_NAME = "Ehaberia Kingdom Network"
+PUBLIC_KEY = "GAKDI5CTLJ7MJUK57YGPJWYIC2AFA2HJOGGTBMMYGPVSZT7FXR77J3NU"  # Your issuer public key
+HOST = "ehaberia.github.io"
